@@ -1,6 +1,10 @@
-import com.alibaba.fastjson.JSON;
+package com.hyl.provider;
 
-public class UserServiceImpl implements UserServiceBo{
+import com.alibaba.fastjson.JSON;
+import com.hyl.sdk.Person;
+import com.hyl.sdk.UserServiceBo;
+
+public class UserServiceImpl implements UserServiceBo {
     @Override
     public String sayHello(String name) {
         //让当前当前线程休眠2s
