@@ -21,7 +21,7 @@
     <bean id="userService" class="com.hyl.provider.UserServiceImpl" />
 
     <!-- 声明需要暴露的服务接口 -->
-    <dubbo:service interface="com.hyl.sdk.UserServiceBo" ref="userService"
-                   group="dubbo"  version="1.0.0" timeout="3000"/>
+    <dubbo:service interface="com.hyl.sdk.service.UserServiceBo" ref="userService"
+                   group="dubbo" version="1.0.0" timeout="3000"/>
 
 </beans>

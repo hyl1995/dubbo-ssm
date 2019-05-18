@@ -1,8 +1,8 @@
 package com.hyl.provider;
 
 import com.alibaba.fastjson.JSON;
-import com.hyl.sdk.Person;
-import com.hyl.sdk.UserServiceBo;
+import com.hyl.sdk.service.Person;
+import com.hyl.sdk.service.UserServiceBo;
 
 public class UserServiceImpl implements UserServiceBo {
     @Override

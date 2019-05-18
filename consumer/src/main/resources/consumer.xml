@@ -14,6 +14,6 @@
     <!-- 启动monitor-->
     <dubbo:monitor protocol="registry" />
     <!-- 生成远程服务代理，可以和本地bean一样使用demoService -->
-    <dubbo:reference id="userService" interface="com.hyl.sdk.UserServiceBo" group="dubbo" version="1.0.0" timeout="3000"/>
+    <dubbo:reference id="userService" interface="com.hyl.sdk.service.UserServiceBo" group="dubbo" version="1.0.0" timeout="3000"/>
 
 </beans>

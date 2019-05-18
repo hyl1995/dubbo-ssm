@@ -1,6 +1,6 @@
 package com.hyl.consumer;
 
-import com.hyl.sdk.UserServiceBo;
+import com.hyl.sdk.service.UserServiceBo;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class TestConsumer {
