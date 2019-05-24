@@ -23,7 +23,7 @@ public class TestConsumerApi {
 
         //等价于<dubbo:reference id="userService" interface="com.test.UserServiceBo"
         //group="dubbo" version="1.0.0" timeout="3000" />
-        ReferenceConfig<UserServiceBo> reference = new ReferenceConfig<UserServiceBo>(); // 此实例很重，封装了与注册中心的连接以及与提供者的连接，请自行缓存，否则可能造成内存和连接泄漏
+        ReferenceConfig<UserServiceBo> reference = new ReferenceConfig<>(); // 此实例很重，封装了与注册中心的连接以及与提供者的连接，请自行缓存，否则可能造成内存和连接泄漏
         reference.setApplication(application);
         reference.setRegistry(registry); // 多个注册中心可以用setRegistries()
         reference.setInterface(UserServiceBo.class);

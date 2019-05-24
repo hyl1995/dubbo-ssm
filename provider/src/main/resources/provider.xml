@@ -18,7 +18,7 @@
     <!-- 启用monitor模块 -->
     <dubbo:monitor protocol="registry" />
 
-    <bean id="userService" class="com.hyl.provider.UserServiceImpl" />
+    <bean id="userService" class="com.hyl.provider.service.UserServiceImpl" />
 
     <!-- 声明需要暴露的服务接口 -->
     <dubbo:service interface="com.hyl.sdk.service.UserServiceBo" ref="userService"

@@ -1,6 +1,7 @@
 package com.hyl.provider;
 
 import com.alibaba.dubbo.config.*;
+import com.hyl.provider.service.UserServiceImpl;
 import com.hyl.sdk.service.UserServiceBo;
 
 public class TestProviderApi {

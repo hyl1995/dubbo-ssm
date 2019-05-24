@@ -1,4 +1,4 @@
-package com.hyl.sdk.service;
+package com.hyl.sdk;
 
 public interface Person {
 }
