@@ -51,7 +51,7 @@ public class TestConsumerApiGeneric {
 
         //POJO参数转换为map
         Map<String, Object> map = new HashMap<>();
-        map.put("class", "com.hyl.sdk.PersonImpl");
+        map.put("class", "com.hyl.sdk.Person");
         map.put("name", "jiaduo");
         map.put("password", "password");
 
