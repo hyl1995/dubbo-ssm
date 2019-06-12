@@ -164,6 +164,13 @@
                 <artifactId>curator-framework</artifactId>
                 <version>4.2.0</version>
             </dependency>
+
+            <!--工具大全-->
+            <dependency>
+                <groupId>cn.hutool</groupId>
+                <artifactId>hutool-all</artifactId>
+                <version>${hutool.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
@@ -182,5 +189,7 @@
         <!-- 日志管理包 -->
         <slf4j.version>1.7.25</slf4j.version>
         <logback.version>1.2.3</logback.version>
+        <!--工具大全-->
+        <hutool.version>4.5.3</hutool.version>
     </properties>
 </project>

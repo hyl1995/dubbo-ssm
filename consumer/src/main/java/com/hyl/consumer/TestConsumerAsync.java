@@ -21,7 +21,7 @@ public class TestConsumerAsync {
         registry.setProtocol("zookeeper");
 
         // 引用远程服务
-        ReferenceConfig<UserServiceBo> reference = new ReferenceConfig<UserServiceBo>();
+        ReferenceConfig<UserServiceBo> reference = new ReferenceConfig<>();
         reference.setApplication(application);
         reference.setRegistry(registry);
         reference.setInterface(UserServiceBo.class);
